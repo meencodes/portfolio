@@ -22,6 +22,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log('TEST ENV:', process.env.NEXT_PUBLIC_BASE_URL)
   return (
     <html lang="en">
       <body
